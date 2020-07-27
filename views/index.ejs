@@ -35,31 +35,84 @@
         text-decoration-color: white;
         font-size: 5em;
       }
+      .row {
+        border: 3px solid blueviolet;
+      }
       header p {
         font-size: larger;
         text-align: center;
       }
       .obj1 {
         height: max-content;
-        background-color: cadetblue;
-        height: max-content;
+        background-color: rgb(209, 203, 203);
+        border: 3px solid gray;
       }
       .obj2 {
         height: max-content;
         background-color: cadetblue;
-        height: max-content;
       }
       .obj3 {
         height: max-content;
         background-color: cadetblue;
-        height: max-content;
       }
       .option {
-        border-radius: 20px;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-right: 0cm;
+        width: 100%;
+        border: 3px solid gray;
+        border-radius: 50px;
+        background-color: gray;
       }
+
       .option button {
+        display: block;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: wheat;
+        color: black;
+        border-radius: 50px;
+      }
+      .quantity {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-right: 0cm;
+        width: 100%;
+        border: 3px solid gray;
+        border-radius: 50px;
+        background-color: gray;
+      }
+
+      .quantity button {
+        display: block;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-color: wheat;
+        color: black;
+        border-radius: 50px;
+      }
+      .quantity h3 {
         text-align: center;
-        margin: 25% 25% 25% 25%;
+        display: block;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .box1 {
+        display: block;
+        background-color: wheat;
+        border: 3px solid gray;
+        float: left;
+      }
+      .box1 p {
+        font-size: 30px;
       }
     </style>
   </head>
@@ -72,7 +125,15 @@
       <div class="row">
         <div class="obj1 col-4">
           <div class="option">
-            <button>option</button>
+            <button type="button" class="btn btn-secondary">option</button>
+          </div>
+          <div class="quantity">
+            <h3>quantity</h3>
+
+            <button type="button" class="btn btn-secondary">type here</button>
+          </div>
+          <div class="box1">
+            <p>obj1</p>
           </div>
         </div>
         <div class="obj2 col-4">
